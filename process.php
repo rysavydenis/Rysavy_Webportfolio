@@ -1,7 +1,7 @@
 <?php 
 
 $to = "rysavydenis@gmail.com";
-$Subject ="Message from my rysavymusic.com";
+$Subject ="Message from rysavyweb.com";
 
 $name = $_POST['name'];
 $email = $_POST['email']; 
@@ -11,7 +11,7 @@ $headers .= "Content-type: text/html;\r\n";
 $headers .= "From: $email";
 
 mail ($to, $Subject, $message, $headers);
-echo "Thank you $name, Your Message has been sent to Rysavy !";
+echo "Thank you $name, Your Message has been sent !";
 ?>
 
 <!DOCTYPE html>
