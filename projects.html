@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="projects.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/finalSketchsmaller.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rysavy_Web Projects</title>
+</head>
+<body>
+
+
+
+<div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" id="rightside">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick=myFunction()>
+            <i class="fa fa-bars"></i>
+        </a>
+</div>
+
+       
+ 
+    <main>
+
+
+            <h1>Projects Portfolio</h1>
+
+<div class="container">
+
+
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+              <div class="column">
+                <div class="content">
+                  <a target="_blank" href="https://github.com/rysavydenis/Responsive-Login-w-php"><img src="images/screenshots-projects/Screenshot_2019-09-27 Screenshot.png" alt="Mountains" style="width:100%"></a>
+                  <h3>Login Page</h3>
+                  <p> - Basic Login/Password Protected Page (using badUsercredentials PHP) - </p>
+                  <p> - Checks if user enters a given Password </p>
+                  <p> - Logs user out/ Check if user is already logged in </p>
+                  <a target="_blank" href="https://github.com/rysavydenis/Responsive-Login-w-php" title="Get the Source Code @ Github" class="fa fa-github"> </a>
+                   <p style="margin-top: 50px"><-get Code</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <a target="_blank" href="https://rysavydenis.github.io/SavMusicBar/"><img src="images/screenshots-projects/Screenshot_2019-10-31 SavMusicBar.png" alt="Lights" style="width:100%"></a>
+                  <h3>Sav Music Bar</h3>
+                  <p> - Make your own Music using your Computer Keyboard as Drumpads - </p>
+                  <p> - Beatmachine/Sampler w Vanilla JS (KeyCodes, EventListener)</p>                
+                  <br>
+                  <br>
+                  <br>
+                  <a target="_blank" href="https://github.com/rysavydenis/SavMusicBar" title="Get the Source Code @ Github" class="fa fa-github"> </a>
+                  <a class="Testme"target="_blank" href="https://rysavydenis.github.io/SavMusicBar/">Test me !</a>
+                  <p style="margin-top: 30px"><-get Code</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <a target="_blank" href="http://www.rysavymusic.com/"><img src="images/screenshots-projects/Screenshot_2019-11-01 Rysavy Music.png" alt="Nature" style="width:100%"></a>
+                  <h3>www.rysavymusic.com</h3>
+                  <p> - Artist Homepage - </p>
+                  <p> - Full Mobile-friendly/Responsive Design, using Media Querys and CSS Flex/Grid</p>
+                  <p> - Animations using CSS Keyframes</p>
+                  <p> - Javascript/J-Query Audio PLayer with Playlist and Search function</p>
+                  <p> - Listen and Download my Music for free, also check for Tourdates, News and book me for your Event  via Contact/Booking Formular </p>
+                  <P> - coming next: Rysavy Blog,
+                    Database Interaction and User-Registration, Admin Area with Manage and Add Posts Function)--Audio Vizualisation with Waveform--</P>
+                    <a target="_blank" title="Get the Source Code @ Github" href="https://github.com/rysavydenis/rysavymusic.com" class="fa fa-github"> </a>
+                    <a target="_blank" class="Testme" href="http://www.rysavymusic.com/">Test me !</a>
+                     <p style="margin-top: 50px"><-get Code</p>
+                </div>
+              </div>
+              <div class="column">
+                <div class="content">
+                  <a target="_blank" href="https://rysavydenis.github.io/Haarsterne-und-Seelilien/index.html"><img src="images/screenshots-projects/Screenshot_2019-11-01 Haarsterne und Seelilien.png"alt="Mountains" style="width:100%"></a>
+                  <h3>Seelilien und Haarsterne</h3>
+                  <p> - Informative Website Layout - </p>
+                  <p> - Responsive, mobile friendly UI - </p>
+                  <p> - Picture Gallery using a Modal-Lightbox</p>
+                  <p> - Video using html5 Video</p>
+                  <br>
+                  <br>
+                  <br>  
+                  <br>
+                  <br>
+                  <a target="_blank" title="Get the Source Code @ Github" href="https://github.com/rysavydenis/Haarsterne-und-Seelilien" class="fa fa-github"></a>
+                  <a target="_blank" class="Testme"href="https://rysavydenis.github.io/Haarsterne-und-Seelilien/index.html">Test me !</a>
+                   <p style="margin-top: 30px"><-get Code</p>
+
+                </div>
+              </div>
+            </div>
+
+
+            <!-- END MAIN -->
+            </div>
+       
+ </div>
+
+          
+
+    </main>
+
+
+    <footer id="footer" style="margin-top:100px;">
+            <p>&copy; 2019 Denis Rysavy<p>
+        </footer>
+
+
+<script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+            x.className = "topnav";
+            }
+        }
+
+var button = document.querySelector("button");
+var isColored = false;
+
+button.addEventListener("click", function(){
+if(isColored){
+        document.body.style.background = "#cef6f5";
+        document.body.style.color = 'black';
+        isColored = false;
+    } else{
+        document.body.style.background = "#343434";
+        document.body.style.color = '#cef6f5';
+        isColored = true;
+    }
+});
+
+</script>  
+</body>
+</html>

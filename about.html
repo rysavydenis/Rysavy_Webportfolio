@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/finalSketchsmaller.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rysavy_Web About me</title>
+</head>
+<body>
+
+
+
+<div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" id="rightside">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick=myFunction()>
+            <i class="fa fa-bars"></i>
+        </a>
+</div>
+
+       
+ 
+    <main>
+
+
+            <h1>About</h1>
+
+                  
+       <img id="profilpic" src="images/realpic.JPG" alt="">
+
+            <br>
+            <br>
+
+         <div id="text">
+            <p> Hello my name is Denis Rysavy I am a Fullstack Developer, living in Germany. </p>
+            <br>
+            <br>
+
+            <p>I am passionate about Designs, creating UI and UX with modern Frontend Technologies like <br>
+                <br>
+
+                <ul>
+                    <li>CSS GRID/Flexbox</li>
+                    <li>CSS Bootstrap</li>
+                    <li>SASS</li>
+                    <li>Javascript React/Vue</li>
+                    <li>Javascript J-Query</li>
+                </ul>
+                <br>
+               ... and also about Programming Server-side. Creating and handling Databases. With the LAMP Stack : </p>
+               <br>
+               <ul>
+                   <li>Linux</li>
+                   <li>PHP 7</li>
+                   <li>My SQL</li>
+                   <li>Apache2</li>
+               </ul>
+               <br>
+
+
+
+        <p id="mainText2"> 
+            My main focus is  a <span class="bold"> Intuitive </span>User Interface. Easy to understand. Also one of my highest Priorities are <br>    
+            <span class="bold"> fast </span> loading times. I can create <span class="bold"> Responsive </span> Layouts, suits for any device ! "
+            </p>
+        </div>
+      
+        <br>
+   
+    </main>
+
+    <div id="html">
+        <img src="images/html.png" alt="">
+        <img src="images/css3.png" alt="">
+        <img src="images/javascript.png" alt="">
+        <img src="images/bootstrap-logo.png" alt="">
+        <img src="images/sass.png" alt="">
+        <img src="images/react logo2.png" alt="">
+        <img src="images/Vue_js_logo.png" alt="">
+        <img src="images/jquery-logo.png" alt="">
+        <img src="images/php.png" alt="">
+        <img src="images/1200px-MySQL_logo.svg.png" alt="">
+        <img src="images/apache.png" alt="">
+       
+    </div>
+
+  
+    <div id="icons">
+        <a target="_blank" href="#" class="fa fa-facebook"></a>
+        <a target="_blank" href="https://github.com/rysavydenis?tab=repositories" class="fa fa-github"> </a>
+        <a target="_blank" href="#" class="fa fa-linkedin"></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UC4vKqfzD2jUiUL7QaNr_-Ag?view_as=subscriber" class="fa fa-youtube"></a>
+    </div>
+
+    <footer id="footer">
+            <p>&copy; 2019 Denis Rysavy<p>
+        </footer>
+
+
+<script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+            x.className += " responsive";
+            } else {
+            x.className = "topnav";
+            }
+        }
+
+var button = document.querySelector("button");
+var isColored = false;
+
+button.addEventListener("click", function(){
+if(isColored){
+        document.body.style.background = "#cef6f5";
+        document.body.style.color = 'black';
+        isColored = false;
+    } else{
+        document.body.style.background = "#343434";
+        document.body.style.color = '#cef6f5';
+        isColored = true;
+    }
+});
+
+</script>  
+</body>
+</html>
