@@ -1,9 +1,5 @@
 <?php 
 
-//Message Variables
-$msg = '';
-$msgClass = '';
-
 
 //Check for submit
 if(filter_has_var(INPUT_POST, 'submit')) {
@@ -110,12 +106,6 @@ if(filter_has_var(INPUT_POST, 'submit')) {
             <h1>Contact</h1>
 
             <div class="container">
-            
-
-                <?php if($msg != ''): ?>
-                    <div style=" width:47vw;padding:20px;height:20px;font-weight:bold;color:white;background-color:red;"class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
-
-                <?php endif; ?>
 
 
           
