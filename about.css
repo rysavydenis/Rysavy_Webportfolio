@@ -13,7 +13,7 @@ body{
 
 main {
     width:100%;
-    height:600px;
+    height:1000px;
     text-align: center;
     margin-top:10px;
     margin-bottom:20px;
@@ -88,19 +88,7 @@ footer {
 
   }
 
-  
- 
 
- #profilpic {
-
-  border-radius:50%;
-  height:250px;
-  width:250px;
-  float:left;
-  margin:20px;
-  border:2px solid black;
-
- }
 
 
 
@@ -131,6 +119,20 @@ footer {
       text-align: left;
     }
   }
+
+    
+ 
+
+ #profilpic {
+
+  border-radius:50%;
+  height:250px;
+  width:250px;
+  float:left;
+  margin:20px;
+  border:2px solid black;
+
+ }
 
 
 .fa {
